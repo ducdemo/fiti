@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="vi">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Chat Real-Time</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <header>
+        <div class="container">
+          <div class="logo">
+            <h1 ><a href="index.html">FITNESS CLUB</a></h1>
+          </div>
+          <nav>
+            <ul>
+              <li><a href="index.html">Home</a></li>
+              <li><a href="store.html">Pricing</a></li>
+              <li><a href="workout-plans.html">workout</a></li>
+              <li><a href="blogs.html">Blogs</a></li>
+              <li><a href="about.html">About Us</a></li>
+              <li><a href="login.html" class="btn join-now">Join Now</a></li>
+            </ul>
+          </nav>
+          <div class="header-icons">
+            <!-- Link to Profile Page with a Font Awesome Icon -->
+    <a href="profile.html" class="profile-link">
+      <i class="fa-solid fa-user"></i>
+    </a>
+    
+          </div>
+        </div>
+      </header>
+    <div class="chat-container">
+        <div class="chat-header">
+            <h2>Chat với Huấn Luyện Viên</h2>
+        </div>
+
+        <div class="chat-messages" id="chat-messages">
+            <!-- Tin nhắn sẽ được load tại đây -->
+        </div>
+
+        <form id="chat-form">
+            <input type="file" id="media" name="media" accept="image/*,video/*">
+            <input type="text" id="message-input" placeholder="Nhập tin nhắn..." required>
+            <button type="submit">Gửi</button>
+        </form>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>

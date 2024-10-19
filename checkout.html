@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html lang="vi">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Thanh Toán | Fitness Club</title>
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+
+  <!-- Phần Header -->
+  <header>
+    <div class="container">
+      <div class="logo">
+        <h1 ><a href="index.html">FITNESS CLUB</a></h1>
+      </div>
+      <nav>
+        <ul>
+          <li><a href="index.html">Home</a></li>
+          <li><a href="store.html">Pricing</a></li>
+          <li><a href="workout-plans.html">workout</a></li>
+          <li><a href="blogs.html">Blogs</a></li>
+          <li><a href="about.html">About Us</a></li>
+          <li><a href="login.html" class="btn join-now">Join Now</a></li>
+        </ul>
+      </nav>
+      <div class="header-icons">
+        <!-- Link to Profile Page with a Font Awesome Icon -->
+<a href="profile.html" class="profile-link">
+  <i class="fa-solid fa-user"></i>
+</a>
+
+      </div>
+    </div>
+  </header>
+
+  <!-- Phần chính Thanh toán -->
+  <section class="checkout-section">
+    <div class="checkout-container">
+      <h2>Thanh Toán</h2>
+
+      <!-- Thông tin sản phẩm -->
+      <div class="product-summary">
+        <h3>Tóm tắt sản phẩm</h3>
+        <p>Tên sản phẩm: <strong>Tên sản phẩm 1</strong></p>
+        <p>Giá: <strong>500.000 VNĐ</strong></p>
+      </div>
+
+      <!-- Hình thức thanh toán -->
+      <h3>Chọn hình thức thanh toán</h3>
+      <form action="#" method="post">
+        
+        <!-- Thanh toán bằng thẻ tín dụng -->
+        <div class="payment-method">
+          <input type="radio" id="credit-card" name="payment-method" value="credit-card" required>
+          <label for="credit-card">Thẻ tín dụng</label>
+          <div class="credit-card-info">
+            <label for="card-number">Số thẻ:</label>
+            <input type="text" id="card-number" name="card-number" placeholder="Nhập số thẻ">
+            <label for="expiry-date">Ngày hết hạn:</label>
+            <input type="text" id="expiry-date" name="expiry-date" placeholder="MM/YY">
+            <label for="cvv">CVV:</label>
+            <input type="text" id="cvv" name="cvv" placeholder="CVV">
+          </div>
+        </div>
+
+        <!-- Thanh toán bằng ví điện tử -->
+        <div class="payment-method">
+          <input type="radio" id="e-wallet" name="payment-method" value="e-wallet">
+          <label for="e-wallet">Ví điện tử</label>
+          <div class="e-wallet-info">
+            <label for="wallet-provider">Chọn ví:</label>
+            <select id="wallet-provider" name="wallet-provider">
+              <option value="momo">MoMo</option>
+              <option value="zalo">ZaloPay</option>
+              <option value="viettelpay">ViettelPay</option>
+            </select>
+          </div>
+        </div>
+
+        <!-- Thanh toán bằng chuyển khoản ngân hàng -->
+        <div class="payment-method">
+          <input type="radio" id="bank-transfer" name="payment-method" value="bank-transfer">
+          <label for="bank-transfer">Chuyển khoản ngân hàng</label>
+          <div class="bank-transfer-info">
+            <p>Thông tin ngân hàng: <strong>Ngân hàng XYZ, STK: 123456789</strong></p>
+            <p>Vui lòng chuyển khoản và nhập mã đơn hàng vào nội dung chuyển tiền.</p>
+          </div>
+        </div>
+
+        <!-- Nút thanh toán -->
+        <button type="submit">Xác nhận thanh toán</button>
+      </form>
+    </div>
+  </section>
+
+</body>
+</html>

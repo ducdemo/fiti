@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Registration Page</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div class="register-container">
+        <!-- Left Side: Image and Quote -->
+        <div class="register-left">
+            <div class="quote">
+                <p>“TrueCoach has <span>increased our monthly revenue by over $55,000”</span></p>
+                <p class="author">Sean Pastuch<br>Founder of Active Life</p>
+            </div>
+        </div>
+
+        <!-- Right Side: Registration Form -->
+        <div class="register-right">
+            <h2>COACHES</h2>
+            <h1>Start your free trial</h1>
+
+            <!-- Google Signup -->
+            <button class="google-signup">
+                <img src="google-icon.png" alt="Google Icon">
+                Sign up with Google
+            </button>
+
+            <div class="or-separator">or</div>
+
+            <!-- Registration Form -->
+            <form action="#" method="POST">
+                <label for="email">Email</label>
+                <input type="email" id="email" placeholder="Email address" required>
+
+                <label for="password">Password</label>
+                <input type="password" id="password" placeholder="Password" required>
+
+                <div class="name-group">
+                    <div>
+                        <label for="firstname">First name</label>
+                        <input type="text" id="firstname" placeholder="Enter first name" required>
+                    </div>
+                    <div>
+                        <label for="lastname">Last name</label>
+                        <input type="text" id="lastname" placeholder="Enter last name" required>
+                    </div>
+                </div>
+
+                <label for="businessname">Business name</label>
+                <input type="text" id="businessname" placeholder="Enter name" required>
+
+                <label for="phone">Phone number</label>
+                <input type="text" id="phone" placeholder="(201) 555-0123" required>
+
+                <label for="country">Country</label>
+                <input type="text" id="country" placeholder="What country do you live in?" required>
+
+                <!-- Terms and Conditions -->
+                <div class="terms">
+                    <input type="checkbox" id="agree" required>
+                    <label for="agree">I agree to the <a href="#">terms and conditions</a></label>
+                </div>
+
+                <!-- Success message -->
+                <div class="success-message">
+                    <img src="success-icon.png" alt="Success">
+                    <p>Thành công!</p>
+                </div>
+
+                <!-- Submit Button -->
+                <button type="submit" class="submit-button">Start your free trial</button>
+            </form>
+        </div>
+    </div>
+</body>
+</html>

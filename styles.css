@@ -1,0 +1,1137 @@
+h1 a {
+  text-decoration: none;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: 'Arial', sans-serif;
+  color: #fff;
+  background-color: #000;
+  background: url(https://wallpapercat.com/w/full/4/3/c/874414-1920x1080-desktop-1080p-gym-wallpaper-photo.jpg);
+}
+
+.container {
+  width: 80%;
+  margin: 0 auto;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+/* Header styling */
+header {
+  display: flex;
+  justify-content: space-between; /* Space between logo and navigation */
+  align-items: center; /* Vertical alignment */
+  padding: 20px;
+  background-color: transparent; /* Matches the background shown in the image */
+  position: relative;
+}
+
+header .logo h1 a {
+  color: #ffcc00; /* Yellow color for the logo */
+  text-decoration: none;
+  font-size: 36px; /* Larger font size for the logo */
+  font-weight: bold; /* Bold font weight */
+  letter-spacing: 2px; /* Space between letters for a clean look */
+}
+
+nav ul {
+  display: flex;
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+}
+
+nav ul li {
+  margin-right: 30px; /* Spacing between nav items */
+}
+
+nav ul li a {
+  color: white;
+  text-decoration: none;
+  font-size: 18px;
+  transition: color 0.3s ease;
+}
+
+nav ul li a:hover {
+  color: #ffcc00; /* Yellow hover effect for nav links */
+}
+
+.btn.join-now {
+  background-color: #ffcc00;
+  padding: 8px 12px;
+  border-radius: 4px;
+  color: #333;
+  text-decoration: none;
+  font-weight: bold;
+}
+
+.btn.join-now:hover {
+  background-color: #ffd700;
+  color: white;
+}
+
+.header-icons {
+  margin-left: 20px;
+}
+
+.header-icons a {
+  color: white;
+  font-size: 24px;
+  text-decoration: none;
+  margin-left: 10px;
+}
+
+.header-icons a:hover {
+  color: #ffcc00; /* Yellow hover effect for the shopping cart icon */
+}
+/* Link Styling */
+.profile-link {
+  display: flex;
+  align-items: center;
+  text-decoration: none;
+  color: #007bff;
+  font-size: 18px;
+  font-weight: bold;
+  transition: color 0.3s;
+}
+
+.profile-link:hover {
+  color: #0056b3;
+}
+
+/* Font Awesome Icon Styling */
+.profile-link .profile-icon {
+  font-size: 60px; /* Increased size */
+  margin-right: 15px;
+  color: #007bff;
+  transition: color 0.3s;
+}
+
+.profile-link:hover .profile-icon {
+  color: #0056b3;
+}
+
+
+.hero {
+  height: 40vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+}
+
+.hero h2 {
+  font-size: 4rem;
+  margin-bottom: 20px;
+}
+
+.hero p {
+  font-size: 1.2rem;
+  margin-bottom: 30px;
+}
+
+.hero-buttons .btn {
+  padding: 10px 30px;
+  margin: 0 10px;
+  border: none;
+  text-decoration: none;
+  font-size: 1.1rem;
+  cursor: pointer;
+}
+
+.learn-more {
+  background-color: transparent;
+  border: 2px solid #fff;
+  color: #fff;
+  margin-top: 100px; 
+}
+
+.join-now {
+  background-color: #ffc107;
+  color: #000;
+}
+
+
+/* Hero Section */
+.hero {
+  display: flex;
+  justify-content: space-between;
+  padding: 40px;
+  background-color: #1e1e1e;
+}
+
+.hero-content {
+  max-width: 50%;
+}
+
+.hero h1 {
+  font-size: 48px;
+  margin: 0;
+}
+
+.pilot-badge {
+  background-color: #007bff;
+  padding: 5px 10px;
+  border-radius: 4px;
+  color: white;
+}
+
+.features {
+  display: flex;
+  justify-content: space-between;
+  padding: 20px 0;
+}
+
+.feature-item {
+  width: 22%;
+  background-color: #2c2c2c;
+  padding: 20px;
+  border-radius: 8px;
+  text-align: center;
+}
+
+.feature-item h2 {
+  color: #007bff;
+}
+
+.feature-item p {
+  font-size: 14px;
+  color: #aaa;
+}
+
+/* Mobile App Showcase */
+.mobile-app-showcase {
+  display: flex;
+  align-items: center;
+}
+
+.mobile-app-showcase img {
+  width: 300px;
+  margin-right: 20px;
+}
+
+.chat-bubble {
+  background-color: #007bff;
+  padding: 20px;
+  border-radius: 10px;
+  color: white;
+  position: relative;
+  max-width: 300px;
+}
+
+.chat-bubble::before {
+  content: '';
+  position: absolute;
+  bottom: -10px;
+  left: 20px;
+  width: 20px;
+  height: 20px;
+  background-color: #007bff;
+  clip-path: polygon(0 0, 100% 0, 0% 100%);
+}
+
+.response {
+  background-color: #2c2c2c;
+  padding: 10px;
+  border-radius: 8px;
+  margin-top: 10px;
+  display: flex;
+  align-items: center;
+}
+
+.response img {
+  width: 30px;
+  height: 30px;
+  border-radius: 50%;
+  margin-right: 10px;
+}
+
+/* Footer */
+footer {
+  background-color: #1a1a1a;
+  padding: 20px;
+  text-align: center;
+}
+/* Profile Header */
+.profile-header {
+  text-align: center;
+  margin-bottom: 50px;
+}
+
+.avatar {
+  width: 120px;
+  height: 120px;
+  border-radius: 50%;
+  margin-bottom: 20px;
+}
+
+h1 {
+  font-size: 32px;
+  color: #333;
+}
+
+p {
+  font-size: 18px;
+  color: #666;
+}
+
+/* Schedule Section */
+.schedule-section {
+  margin-bottom: 50px;
+}
+
+.schedule-list {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+  gap: 20px;
+}
+
+.schedule-item {
+  background-color: #fff;
+  padding: 20px;
+  border-radius: 8px;
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+}
+
+.schedule-item h3 {
+  color: #007bff;
+  margin-bottom: 10px;
+}
+
+.schedule-item p {
+  color: #666;
+}
+
+/* Feedback Section */
+.feedback-section {
+  margin-bottom: 50px;
+}
+
+.feedback-form {
+  margin-bottom: 30px;
+}
+
+.feedback-form textarea {
+  width: 100%;
+  padding: 15px;
+  border: 1px solid #ddd;
+  border-radius: 8px;
+  margin-bottom: 10px;
+  font-size: 16px;
+}
+
+.feedback-form button {
+  padding: 10px 20px;
+  background-color: #007bff;
+  color: white;
+  border: none;
+  border-radius: 8px;
+  cursor: pointer;
+}
+
+.feedback-form button:hover {
+  background-color: #0056b3;
+}
+
+.feedback-list {
+  background-color: #fff;
+  padding: 20px;
+  border-radius: 8px;
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+}
+
+.feedback-item {
+  margin-bottom: 20px;
+}
+
+.feedback-item p {
+  font-size: 16px;
+  color: #333;
+}
+
+.feedback-item strong {
+  color: #007bff;
+}
+
+/* Phần Store */
+
+section.pricing {
+  text-align: center;
+  padding: 3rem 1rem;
+}
+
+section.pricing h2 {
+  font-size: 2.5rem;
+  margin-bottom: 1rem;
+}
+
+section.pricing p {
+  font-size: 1rem;
+  margin-bottom: 3rem;
+}
+
+.plans {
+  display: flex;
+  justify-content: space-around;
+  gap: 1rem;
+}
+
+.plan {
+  background-color: #222;
+  padding: 2rem;
+  border-radius: 8px;
+  width: 20%;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.3);
+}
+
+.plan h3 {
+  font-size: 1.5rem;
+  margin-bottom: 1rem;
+}
+
+.plan .price {
+  font-size: 2rem;
+  color: #f5c518; /* Yellow price */
+  margin-bottom: 1rem;
+}
+
+.plan ul {
+  list-style-type: none;
+  margin: 1rem 0;
+}
+
+.plan ul li {
+  margin: 0.5rem 0;
+}
+
+button {
+  background-color: #f5c518; /* Yellow button */
+  color: #111;
+  padding: 0.5rem 1rem;
+  border: none;
+  cursor: pointer;
+  font-size: 1rem;
+  border-radius: 4px;
+}
+
+footer {
+  text-align: center;
+  padding: 2rem 0;
+  background-color: #000;
+}
+/* phần workshop */
+
+#workout-plans {
+  padding: 40px;
+  text-align: center;
+  background-color: #f9f9f9;
+}
+
+.workout-container {
+  display: flex;
+  justify-content: space-around;
+  flex-wrap: wrap;
+}
+
+.workout-card {
+  background-color: white;
+  width: 300px;
+  margin: 20px;
+  padding: 20px;
+  border-radius: 8px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.workout-card h3 {
+  color: #333;
+}
+
+.workout-card ul {
+  text-align: left;
+}
+
+footer {
+  background-color: #222;
+  color: white;
+  text-align: center;
+  padding: 10px;
+}
+
+
+/* Phần Blogs */
+
+#blog {
+  padding: 40px;
+  text-align: center;
+}
+
+h1 {
+  margin-bottom: 40px;
+  font-size: 32px;
+  color: #ffcc00;
+}
+
+.blog-container {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+  gap: 20px;
+  padding: 20px;
+}
+
+.blog-card {
+  background-color: #333;
+  border-radius: 8px;
+  overflow: hidden;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  transition: transform 0.2s;
+}
+
+.blog-card:hover {
+  transform: scale(1.05);
+}
+
+.blog-card img {
+  width: 100%;
+  height: 200px;
+  object-fit: cover;
+}
+
+.blog-content {
+  padding: 15px;
+}
+
+.blog-content h3 {
+  color: #ffcc00;
+  margin-bottom: 10px;
+}
+
+.blog-content p {
+  color: #ccc;
+}
+
+footer {
+  background-color: #222;
+  color: white;
+  text-align: center;
+  padding: 10px;
+  margin-top: 20px;
+}
+/* Thiết kế About Us */
+.about-us {
+  padding: 120px 20px; /* Đảm bảo phần chính không bị che bởi header */
+  background-color: #f4f4f4;
+  text-align: center;
+}
+
+.about-us h2 {
+  font-size: 36px;
+  margin-bottom: 20px;
+}
+
+.about-us p {
+  font-size: 18px;
+  color: #666;
+  margin-bottom: 40px;
+}
+
+/* Lưới thông tin */
+.about-grid {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 20px;
+}
+
+.about-card {
+  background-color: #fff;
+  border: 1px solid #ddd;
+  border-radius: 10px;
+  padding: 20px;
+  text-align: left;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.about-card h3 {
+  font-size: 24px;
+  margin-bottom: 10px;
+}
+
+.about-card p {
+  font-size: 16px;
+  color: #333;
+}
+
+/* Phần đội ngũ */
+.team {
+  margin-top: 40px;
+}
+
+.team-grid {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 20px;
+}
+
+.team-member {
+  text-align: center;
+}
+
+.team-member img {
+  width: 100%;
+  border-radius: 50%;
+  max-width: 150px;
+  height: auto;
+}
+
+.team-member h4 {
+  margin: 10px 0 5px;
+  font-size: 20px;
+}
+
+.team-member p {
+  color: #666;
+}
+
+/* Thiết kế đáp ứng */
+@media (max-width: 1200px) {
+  .about-grid {
+    grid-template-columns: repeat(2, 1fr); /* 2 cột cho màn hình trung bình */
+  }
+  
+  .team-grid {
+    grid-template-columns: repeat(2, 1fr);
+  }
+}
+
+@media (max-width: 800px) {
+  .about-grid {
+    grid-template-columns: 1fr; /* 1 cột cho màn hình nhỏ */
+  }
+  
+  .team-grid {
+    grid-template-columns: 1fr;
+  }
+}
+/* Thiết kế Contact Us */
+.about-hero {
+  background-color: #333;
+  color: white;
+  text-align: center;
+  padding: 60px 0;
+}
+
+.about-hero h2 {
+  font-size: 48px;
+  margin: 0;
+}
+
+.about-hero p {
+  font-size: 18px;
+  margin-top: 10px;
+}
+
+/* About Content Section */
+.about-content {
+  padding: 60px 0;
+  background-color: #f9f9f9;
+}
+
+.about-text h3 {
+  font-size: 36px;
+  margin-bottom: 20px;
+}
+
+.about-text p {
+  font-size: 18px;
+  line-height: 1.6;
+  margin-bottom: 20px;
+}
+
+/* Team Section */
+.team-section {
+  margin-top: 60px;
+}
+
+.team-section h3 {
+  font-size: 36px;
+  margin-bottom: 20px;
+}
+
+.team-members {
+  display: flex;
+  gap: 20px;
+  justify-content: space-between;
+}
+
+.team-member {
+  text-align: center;
+}
+
+.team-member img {
+  width: 100%;
+  height: auto;
+  border-radius: 50%;
+}
+
+.team-member h4 {
+  font-size: 22px;
+  margin-top: 10px;
+}
+
+.team-member p {
+  font-size: 16px;
+  color: #777;
+}
+
+/* Values and Mission Section */
+.values-mission {
+  background-color: #fff;
+  padding: 60px 0;
+  text-align: center;
+}
+
+.values, .mission {
+  margin-bottom: 40px;
+}
+
+.values h3, .mission h3 {
+  font-size: 36px;
+  margin-bottom: 20px;
+}
+
+.values ul {
+  list-style-type: none;
+  padding: 0;
+}
+
+.values ul li {
+  font-size: 18px;
+  margin: 10px 0;
+}
+
+.mission p {
+  font-size: 18px;
+  line-height: 1.6;
+}
+
+/* Footer Styling */
+footer {
+  background-color: #333;
+  color: white;
+  padding: 40px 0;
+  text-align: center;
+}
+
+footer .social a {
+  color: white;
+  font-size: 24px;
+  margin: 0 15px;
+  text-decoration: none;
+}
+
+footer .social a:hover {
+  color: #ffcc00;
+}
+
+/* Mạng xã hội */
+.social-icons {
+  margin-top: 20px;
+}
+
+.social-icons a {
+  margin-right: 10px;
+}
+
+.social-icons img {
+  width: 30px;
+  height: 30px;
+}
+
+/* Thiết kế đáp ứng */
+@media (max-width: 800px) {
+  .contact-grid {
+    grid-template-columns: 1fr;
+  }
+}
+/* Thiết kế trang đăng nhập */
+.login-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100%;
+}
+
+.login-box {
+  background-color: #3A3A3A;
+  padding: 40px;
+  border-radius: 10px;
+  width: 350px;
+  text-align: center;
+  box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.5);
+}
+
+/* Logo */
+.logo {
+  width: 50px;
+  margin-bottom: 10px;
+}
+
+/* Form Elements */
+form {
+  display: flex;
+  flex-direction: column;
+}
+
+label {
+  color: #dcdcdc;
+  text-align: left;
+  margin-bottom: 8px;
+}
+
+input[type="email"],
+input[type="password"] {
+  background-color: #222;
+  color: #fff;
+  padding: 12px;
+  margin-bottom: 20px;
+  border: 1px solid #555;
+  border-radius: 4px;
+}
+
+input::placeholder {
+  color: #888;
+}
+
+button {
+  cursor: pointer;
+}
+
+.login-button {
+  background-color: #007BFF;
+  color: #fff;
+  padding: 12px;
+  border: none;
+  border-radius: 4px;
+  font-size: 16px;
+  margin-bottom: 20px;
+  transition: background-color 0.3s ease;
+}
+
+.login-button:hover {
+  background-color: #0056b3;
+}
+
+/* Google Login Button */
+.google-login {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: #222;
+  color: #fff;
+  padding: 12px;
+  border: 1px solid #555;
+  border-radius: 4px;
+  font-size: 16px;
+  margin-bottom: 20px;
+}
+
+.google-login img {
+  width: 20px;
+  margin-right: 10px;
+}
+
+/* Or Separator */
+.or-separator {
+  position: relative;
+  text-align: center;
+  font-size: 14px;
+  color: #888;
+  margin-bottom: 20px;
+}
+
+.or-separator::before,
+.or-separator::after {
+  content: '';
+  position: absolute;
+  width: 40%;
+  height: 1px;
+  background: #555;
+  top: 50%;
+}
+
+.or-separator::before {
+  left: 0;
+}
+
+.or-separator::after {
+  right: 0;
+}
+
+/* Forgot Password */
+.forgot-password {
+  font-size: 14px;
+  color: #007BFF;
+  text-decoration: none;
+  margin-bottom: 20px;
+}
+
+.forgot-password:hover {
+  text-decoration: underline;
+}
+
+/* Register Link */
+.register-link {
+  font-size: 14px;
+  color: #888;
+}
+
+.register-link a {
+  color: #007BFF;
+  text-decoration: none;
+}
+
+.register-link a:hover {
+  text-decoration: underline;
+}
+
+/* Thiết kế trang đăng ký */
+/* Container for the entire registration layout */
+.register-container {
+  display: flex;
+  width: 80%;
+  max-width: 1200px;
+  border-radius: 10px;
+  overflow: hidden;
+  box-shadow: 0px 0px 20px rgba(0, 0, 0, 0.5);
+}
+
+/* Left Side: Image and Quote */
+.register-left {
+  background-image: url('background-image.jpg'); /* Replace with your image */
+  background-size: cover;
+  background-position: center;
+  width: 50%;
+  padding: 40px;
+  display: flex;
+  align-items: center;
+}
+
+.quote {
+  color: #ffffff;
+  font-size: 18px;
+  text-align: left;
+}
+
+.quote span {
+  font-size: 24px;
+  font-weight: bold;
+  color: #ff66c4;
+}
+
+.author {
+  margin-top: 10px;
+  font-style: italic;
+}
+
+/* Right Side: Registration Form */
+.register-right {
+  background-color: #2c2c2c;
+  padding: 40px;
+  width: 50%;
+}
+
+h1, h2 {
+  margin: 0;
+}
+
+h1 {
+  font-size: 24px;
+  margin-bottom: 20px;
+}
+
+h2 {
+  font-size: 18px;
+  margin-bottom: 10px;
+  color: #ff66c4;
+}
+
+/* Google Signup Button */
+.google-signup {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: #444;
+  color: #fff;
+  padding: 10px;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+  margin-bottom: 20px;
+}
+
+.google-signup img {
+  width: 20px;
+  margin-right: 10px;
+}
+
+.or-separator {
+  text-align: center;
+  font-size: 14px;
+  color: #888;
+  margin: 20px 0;
+}
+
+/* Input fields */
+input[type="text"],
+input[type="email"],
+input[type="password"] {
+  width: 100%;
+  padding: 12px;
+  margin: 10px 0;
+  border: 1px solid #555;
+  background-color: #222;
+  color: #fff;
+  border-radius: 4px;
+}
+
+input::placeholder {
+  color: #888;
+}
+
+.name-group {
+  display: flex;
+  justify-content: space-between;
+}
+
+.name-group div {
+  width: 48%;
+}
+
+/* Terms and Conditions */
+.terms {
+  display: flex;
+  align-items: center;
+  margin: 20px 0;
+}
+
+.terms input {
+  margin-right: 10px;
+}
+
+.terms a {
+  color: #007bff;
+  text-decoration: none;
+}
+
+.terms a:hover {
+  text-decoration: underline;
+}
+
+/* Success Message */
+.success-message {
+  display: flex;
+  align-items: center;
+  background-color: #444;
+  padding: 10px;
+  border-radius: 4px;
+  margin-bottom: 20px;
+}
+
+.success-message img {
+  width: 20px;
+  margin-right: 10px;
+}
+
+.success-message p {
+  margin: 0;
+}
+
+/* Submit Button */
+.submit-button {
+  width: 100%;
+  padding: 12px;
+  background-color: #007bff;
+  color: white;
+  border: none;
+  border-radius: 4px;
+  font-size: 16px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+.submit-button:hover {
+  background-color: #0056b3;
+}
+
+/* Thiết kế trang Thanh toán */
+.checkout-section {
+  padding: 100px 0;
+  text-align: center;
+  background-color: #f4f4f4;
+}
+
+.checkout-container {
+  background-color: #fff;
+  padding: 40px;
+  border-radius: 10px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  width: 400px;
+  margin: auto;
+}
+
+.checkout-container h2 {
+  font-size: 36px;
+  margin-bottom: 20px;
+  color: #333;
+}
+
+.product-summary {
+  margin-bottom: 30px;
+}
+
+.payment-method {
+  margin-bottom: 20px;
+  text-align: left;
+}
+
+.payment-method label {
+  font-size: 18px;
+  margin-left: 5px;
+}
+
+.credit-card-info,
+.e-wallet-info,
+.bank-transfer-info {
+  margin-left: 20px;
+  margin-top: 10px;
+}
+
+input[type="text"],
+select {
+  width: 100%;
+  padding: 10px;
+  margin-bottom: 10px;
+  border-radius: 5px;
+  border: 1px solid #ddd;
+}
+
+button[type="submit"] {
+  padding: 10px 20px;
+  background-color: #ff0000;
+  color: #fff;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  font-size: 16px;
+  width: 100%;
+}
+
+button[type="submit"]:hover {
+  background-color: #cc0000;
+}
